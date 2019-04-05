@@ -1,0 +1,43 @@
+body{
+	background-color:black;
+	font-size:12px;
+	font-family:airal;
+	margin:0px;
+}
+div.products{
+	width:1000px;
+	display:table;
+	margin:auto;
+}
+
+div.products h3{
+	float:left;
+	color:black;
+	background:#d3654c ;
+	margin:0;
+	line-height:41px;
+	text-indent:5px;
+	font-weight:normal;
+	font-size:22px;
+	padding-right:20px;
+	margin-left:10px;
+}
+div.products ul,
+div.products ul li{
+	float:left;
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}
+div.products ul{
+	
+	width:100%;
+	margin-top:20px;
+	
+}
+div.products ul li{
+	width:25%;
+	
+}
+
+

@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>Login Form</title>
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link href="css/bootstrap.css" rel="stylesheet"/>
+<script src="js/jquery-3.3.1.min.js"/></script>
+<script src="js/bootstrap.js"/></script>
+<link rel="stylesheet" href="style1.css">
+<link rel="stylesheet" href="style2.css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+<body>
+	<header>
+		<nav>
+		<div class="toggle"><i class="fa fa-bars menu" aria-hidden="true"></i></div>
+			<ul>
+				<li><a href="#" class="active">HOME</a></li>
+				<li><a href="services.html">SERVICES</a></li>
+				
+			</ul>
+		</nav></header>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.menu').click(function(){
+					$('ul').toggleClass('active');
+				})
+			})
+		</script><h3 align="center">E-commerce Website</h3>
+		
+
+<div class="login-page">
+
+	<div class="form">
+	<img src="images.jpg" class="image">
+	<form class="register-form">
+		<input type="text" placeholder="Email"/>
+			<input type="text" placeholder="Username"/>
+				<input type="password" placeholder="Password"/>
+					<input type="text" placeholder="Contact No"/>
+				<a href="services.html><button>Create</button></a>
+					<p class="message">Already Registered?<a href="#">Login</a></p>
+	</form>
+	<form class="login-form">
+	
+		<input type="text" placeholder="Username" required=""/>
+			<input type="password" placeholder="Password" required=""/>
+				<a href="services.html"><button>Login</button></a>
+					<p class="message" >Not Registered?<a href="#">Register</a></p>
+	</form>
+	</div>
+</div>
+	<script>
+		$('.message a').click(function(){
+			$('form').animate({height:"toggle",opacity:"toggle"}, "slow");
+		});
+	</script>
+</body>
+</html>
